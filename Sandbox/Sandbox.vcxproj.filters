@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Assets\images">
+      <UniqueIdentifier>{57a15c14-3d6c-4ae2-83d1-209d6cf8da07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\fonts">
+      <UniqueIdentifier>{d1ede4dc-9bfd-4b53-90ee-93d03bbec25f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sandbox.h">
@@ -23,5 +29,42 @@
     <ClCompile Include="Title.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sandbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\images\player.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\button.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cycle.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cycle_button.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\switch.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cursor.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\slider_cursor.png">
+      <Filter>Assets\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\fonts\cour.ttf">
+      <Filter>Assets\fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>

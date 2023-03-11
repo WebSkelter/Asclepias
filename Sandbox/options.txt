@@ -1,0 +1,3 @@
+window_dims:1080x720
+fullscreen:0
+volume:0.707692

@@ -144,7 +144,22 @@
     <ClInclude Include="Sandbox.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Options.cpp" />
+    <ClCompile Include="Sandbox.cpp" />
     <ClCompile Include="Title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\images\button.png" />
+    <Image Include="Assets\images\cursor.png" />
+    <Image Include="Assets\images\cycle.png" />
+    <Image Include="Assets\images\cycle_button.png" />
+    <Image Include="Assets\images\player.png" />
+    <Image Include="Assets\images\slider_cursor.png" />
+    <Image Include="Assets\images\switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\fonts\cour.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

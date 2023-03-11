@@ -116,16 +116,16 @@ namespace ASC {
 		else if (!reflectH && reflectV) {
 			vertices_ = {
 				bl.x, bl.y, bl.z,
-				textureRect.x + textureRect.z, textureRect.y,
-				color.x, color.y, color.z,
-				br.x, br.y, br.z,
 				textureRect.x, textureRect.y,
 				color.x, color.y, color.z,
+				br.x, br.y, br.z,
+				textureRect.x + textureRect.z, textureRect.y,
+				color.x, color.y, color.z,
 				tl.x, tl.y, tl.z,
-				textureRect.x, textureRect.y + textureRect.w,
+				textureRect.x + textureRect.z, textureRect.y + textureRect.w,
 				color.x, color.y, color.z,
 				tr.x, tr.y, tr.z,
-				textureRect.x + textureRect.z, textureRect.y + textureRect.w,
+				textureRect.x, textureRect.y + textureRect.w,
 				color.x, color.y, color.z,
 			};
 		}
@@ -148,16 +148,16 @@ namespace ASC {
 		else if (reflectH && reflectV) {
 			vertices_ = {
 				bl.x, bl.y, bl.z,
-				textureRect.x, textureRect.y,
-				color.x, color.y, color.z,
-				br.x, br.y, br.z,
 				textureRect.x + textureRect.z, textureRect.y,
 				color.x, color.y, color.z,
+				br.x, br.y, br.z,
+				textureRect.x, textureRect.y,
+				color.x, color.y, color.z,
 				tl.x, tl.y, tl.z,
-				textureRect.x + textureRect.z, textureRect.y + textureRect.w,
+				textureRect.x, textureRect.y + textureRect.w,
 				color.x, color.y, color.z,
 				tr.x, tr.y, tr.z,
-				textureRect.x, textureRect.y + textureRect.w,
+				textureRect.x + textureRect.z, textureRect.y + textureRect.w,
 				color.x, color.y, color.z,
 			};
 		}

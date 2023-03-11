@@ -448,6 +448,8 @@ namespace ASC {
 			ASC_ALIGN_CENTER, ASC_ALIGN_CENTER);
 		nextB_.parent_ = this;
 		nextB_.ID_ = 1;
+		nextB_.bgSprite_.reflectH = false;
+		nextB_.bgSprite_.reflectV = true;
 		setDims(dims);
 		setPos(pos);
 	}
